@@ -2,18 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6bfaa1e-724b-4f5b-99ea-696300a3a750" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_junit_4_12.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_luben_zstd_jni_1_3_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lightbend_lagom_lagom_javadsl_integration_client_2_13_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lightbend_lagom_lagom_javadsl_kafka_client_2_13_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lightbend_lagom_lagom_kafka_client_2_13_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lightbend_lagom_lagom_service_registry_client_2_13_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lightbend_lagom_lagom_service_registry_client_core_2_13_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_stream_kafka_2_13_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_collection_compat_2_13_2_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-world-impl/hello-world-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-impl/hello-world-impl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-world-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-impl/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-world-impl/src/test/java/com/freesoft/helloworld/impl/HelloWorldServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-impl/src/test/java/com/freesoft/helloworld/impl/HelloWorldServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-world-impl/target/classes/com/freesoft/helloworld/impl/HelloWorldServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-impl/target/classes/com/freesoft/helloworld/impl/HelloWorldServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-world-impl/target/test-classes/com/freesoft/helloworld/impl/HelloWorldServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-impl/target/test-classes/com/freesoft/helloworld/impl/HelloWorldServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-api/src/main/java/com/freesoft/helloworld/HelloWorldService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-api/src/main/java/com/freesoft/helloworld/HelloWorldService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world-impl/src/main/java/com/freesoft/helloworld/impl/HelloWorldServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world-impl/src/main/java/com/freesoft/helloworld/impl/HelloWorldServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/hello-world-api/target/" />
     <ignored path="$PROJECT_DIR$/hello-world-impl/target/" />
+    <ignored path="$PROJECT_DIR$/client/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +42,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="76" column="74" selection-start-line="76" selection-start-column="74" selection-end-line="76" selection-end-column="74" />
+            <state relative-caret-position="130">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/com/freesoft/helloworld/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hello-world-api/src/main/java/com/freesoft/helloworld/HelloWorldService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="240">
+              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,20 +85,21 @@
         <entry file="file://$PROJECT_DIR$/hello-world-impl/src/main/java/com/freesoft/helloworld/impl/HelloWorldServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
                 <element signature="e#480#481#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hello-world-impl/src/test/java/com/freesoft/helloworld/impl/HelloWorldServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            <state relative-caret-position="226">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hello-world-impl/src/main/java/com/freesoft/helloworld/impl/HelloWorldServiceModule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="74" selection-start-line="12" selection-start-column="74" selection-end-line="12" selection-end-column="74" />
+            <state relative-caret-position="96">
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#349#350#0" expanded="true" />
@@ -124,13 +160,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/hello-world-api/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/hello-world-api/src/main/java/com/freesoft/helloworld/HelloWorldService.java" />
-        <option value="$PROJECT_DIR$/hello-world-impl/src/main/java/com/freesoft/helloworld/impl/HelloWorldServiceImpl.java" />
         <option value="$PROJECT_DIR$/hello-world-impl/src/main/java/com/freesoft/helloworld/impl/HelloWorldServiceModule.java" />
         <option value="$PROJECT_DIR$/hello-world-impl/src/main/resources/application.conf" />
         <option value="$PROJECT_DIR$/hello-world-impl/pom.xml" />
         <option value="$PROJECT_DIR$/hello-world-impl/src/test/java/com/freesoft/helloworld/impl/HelloWorldServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/hello-world-impl/src/main/java/com/freesoft/helloworld/impl/HelloWorldServiceImpl.java" />
+        <option value="$PROJECT_DIR$/hello-world-api/src/main/java/com/freesoft/helloworld/HelloWorldService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/client/pom.xml" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/freesoft/helloworld/Main.java" />
       </list>
     </option>
   </component>
@@ -182,115 +220,44 @@
             <path>
               <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
               <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-world-api" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
               <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-world-api" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
               <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-world-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-world-api" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
               <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-world-api" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
               <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-world-api" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="freesoft" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-world-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="freesoft" type="462c0819:PsiDirectoryNode" />
-              <item name="helloworld" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-world-impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-world-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-world-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-world-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-world-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-world-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-world-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
               <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-world-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="freesoft" type="462c0819:PsiDirectoryNode" />
@@ -298,25 +265,13 @@
             <path>
               <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
               <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-world-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="freesoft" type="462c0819:PsiDirectoryNode" />
               <item name="helloworld" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-world-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="freesoft" type="462c0819:PsiDirectoryNode" />
-              <item name="helloworld" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -406,7 +361,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586452737300</updated>
       <workItem from="1586452738553" duration="1114000" />
-      <workItem from="1586453926857" duration="4453000" />
+      <workItem from="1586453926857" duration="5431000" />
     </task>
     <servers />
   </component>
@@ -422,13 +377,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5567000" />
+    <option name="totallyTimeSpent" value="6545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25377643" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25377643" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -437,7 +392,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297546" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297546" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -478,16 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-world-api/src/main/java/com/freesoft/helloworld/HelloWorldService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_192/src.zip!/java/util/concurrent/CompletionStage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -516,17 +461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-world-impl/src/main/java/com/freesoft/helloworld/impl/HelloWorldServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/lightbend/lagom/lagom-javadsl-testkit_2.13/1.6.0/lagom-javadsl-testkit_2.13-1.6.0.jar!/com/lightbend/lagom/javadsl/testkit/ServiceTest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -538,18 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="83" column="37" selection-start-line="83" selection-start-column="37" selection-end-line="83" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-world-impl/src/main/java/com/freesoft/helloworld/impl/HelloWorldServiceModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="74" selection-start-line="12" selection-start-column="74" selection-end-line="12" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -567,17 +489,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/hello-world-impl/src/test/java/com/freesoft/helloworld/impl/HelloWorldServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="76" column="74" selection-start-line="76" selection-start-column="74" selection-end-line="76" selection-end-column="74" />
+        <state relative-caret-position="226">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-world-impl/src/test/java/com/freesoft/helloworld/impl/HelloWorldServiceImplTest.java">
+    <entry file="file://$PROJECT_DIR$/hello-world-impl/src/main/java/com/freesoft/helloworld/impl/HelloWorldServiceModule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        <state relative-caret-position="96">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-world-impl/src/main/java/com/freesoft/helloworld/impl/HelloWorldServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-world-api/src/main/java/com/freesoft/helloworld/HelloWorldService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/freesoft/helloworld/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

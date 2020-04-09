@@ -7,7 +7,8 @@ import com.lightbend.lagom.javadsl.api.ServiceCall;
 
 import static com.lightbend.lagom.javadsl.api.Service.*;
 
-public interface HelloWorldService extends Service {
+public interface HelloWorldService
+        extends Service {
 
     ServiceCall<NotUsed, String> helloWorld();
 
